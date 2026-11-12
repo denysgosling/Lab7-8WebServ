@@ -1,0 +1,4 @@
+@model LifetimeRow[]
+@{ ViewData["Title"] = L["Text003"].Value; }
+<div class="page-heading"><div><p class="eyebrow">@L["Text047"]</p><h1>@L["Text048"]</h1><p class="subtext">@L["Text049"]</p></div><a class="btn btn-primary" asp-action="Index">@L["Text050"]</a></div>
+<div class="lifetime-grid">@foreach (var row in Model) { <section class="panel"><span class="feature-icon" aria-hidden="true">◎</span><h2>@row.Name</h2><p>@row.Description</p><dl><dt>@L["Text051"]</dt><dd><code>@row.First</code></dd><dt>@L["Text052"]</dt><dd><code>@row.Second</code></dd></dl><span class="pill">@(row.First == row.Second ? L["Text053"].Value : L["Text054"].Value)</span></section> }</div>

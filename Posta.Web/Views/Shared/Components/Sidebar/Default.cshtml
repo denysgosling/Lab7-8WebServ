@@ -1,0 +1,10 @@
+@model NavigationModel
+@{ var current = Model.CurrentController; }
+<aside id="sidebar-wrapper"><a class="brand" asp-controller="Home" asp-action="Index"><span class="brand-mark">p.</span>posta<span class="brand-dot">●</span></a>
+<div class="sidebar-label">@L["Text007"]</div><nav aria-label="@L["Text008"]"><a class="nav-item @(current == "Home" ? "active" : "")" asp-controller="Home" asp-action="Index"><span aria-hidden="true">◫</span>@L["Text001"]</a>
+<a class="nav-item @(current == "Mail" ? "active" : "")" asp-controller="Mail" asp-action="Index"><span aria-hidden="true">↗</span>@L["Text002"]</a>
+<a class="nav-item @(current == "Lifetimes" ? "active" : "")" asp-controller="Lifetimes" asp-action="Index"><span aria-hidden="true">◎</span>@L["Text003"]</a>
+<a class="nav-item @(current == "Journal" ? "active" : "")" asp-controller="Journal" asp-action="Index"><span aria-hidden="true">≋</span>@L["Text004"]</a>
+<a class="nav-item @(current == "Files" ? "active" : "")" asp-controller="Files" asp-action="Index"><span aria-hidden="true">▤</span>@L["Text005"]</a>
+<a class="nav-item @(current == "Requests" ? "active" : "")" asp-controller="Requests" asp-action="Index"><span aria-hidden="true">✓</span>@L["RequestNav"]</a></nav>
+<div class="sidebar-bottom"><span class="status-dot"></span> @L["Text009"]</div></aside>

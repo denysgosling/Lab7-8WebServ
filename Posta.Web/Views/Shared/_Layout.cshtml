@@ -1,0 +1,10 @@
+<!DOCTYPE html><html lang="@System.Globalization.CultureInfo.CurrentUICulture.Name"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>@ViewData["Title"] · Posta</title>
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" /></head>
+<body><a class="skip-link" href="#main">@L["Text006"]</a><div id="wrapper">
+@await Component.InvokeAsync("Sidebar")
+<div id="page-content-wrapper">@await Component.InvokeAsync("Navbar")
+<main id="main">@RenderBody()</main><footer>@L["Text012"]<span>Posta</span></footer></div></div>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script><script src="~/js/site.js" asp-append-version="true"></script>
+@await RenderSectionAsync("Scripts", required: false)</body></html>

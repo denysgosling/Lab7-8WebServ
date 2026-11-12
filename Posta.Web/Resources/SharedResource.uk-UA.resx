@@ -1,0 +1,543 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <data name="Text001" xml:space="preserve">
+    <value>Огляд</value>
+  </data>
+  <data name="Text002" xml:space="preserve">
+    <value>Повідомлення</value>
+  </data>
+  <data name="Text003" xml:space="preserve">
+    <value>Життєві цикли DI</value>
+  </data>
+  <data name="Text004" xml:space="preserve">
+    <value>Журнал запитів</value>
+  </data>
+  <data name="Text005" xml:space="preserve">
+    <value>Мої файли</value>
+  </data>
+  <data name="Text006" xml:space="preserve">
+    <value>Перейти до вмісту</value>
+  </data>
+  <data name="Text007" xml:space="preserve">
+    <value>РОБОЧИЙ ПРОСТІР</value>
+  </data>
+  <data name="Text008" xml:space="preserve">
+    <value>Головна навігація</value>
+  </data>
+  <data name="Text009" xml:space="preserve">
+    <value>Локальний простір</value>
+  </data>
+  <data name="Text010" xml:space="preserve">
+    <value>Мій простір</value>
+  </data>
+  <data name="Text011" xml:space="preserve">
+    <value>ОСОБИСТИЙ ПРОСТІР</value>
+  </data>
+  <data name="Text012" xml:space="preserve">
+    <value>Posta — місце для ваших повідомлень і файлів.</value>
+  </data>
+  <data name="Text013" xml:space="preserve">
+    <value>ВАШ ЩОДЕННИЙ ПРОСТІР</value>
+  </data>
+  <data name="Text014" xml:space="preserve">
+    <value>Усе починається з Posta.</value>
+  </data>
+  <data name="Text015" xml:space="preserve">
+    <value>Трохи більше порядку. Трохи менше зайвого.</value>
+  </data>
+  <data name="Text016" xml:space="preserve">
+    <value>ПРОСТО. ЗРУЧНО. ПОРУЧ.</value>
+  </data>
+  <data name="Text017" xml:space="preserve">
+    <value>Хорошим ідеям</value>
+  </data>
+  <data name="Text018" xml:space="preserve">
+    <value>потрібен свій простір.</value>
+  </data>
+  <data name="Text019" xml:space="preserve">
+    <value>Повідомлення, матеріали та щоденні справи — у спокійному ритмі й з увагою до деталей.</value>
+  </data>
+  <data name="Text020" xml:space="preserve">
+    <value>Написати повідомлення ↗</value>
+  </data>
+  <data name="Text021" xml:space="preserve">
+    <value>Можливості простору</value>
+  </data>
+  <data name="Text022" xml:space="preserve">
+    <value>Усе під рукою</value>
+  </data>
+  <data name="Text023" xml:space="preserve">
+    <value>Напишіть лист, додайте одержувача та надішліть його зі свого простору.</value>
+  </data>
+  <data name="Text024" xml:space="preserve">
+    <value>Відкрити</value>
+  </data>
+  <data name="Text025" xml:space="preserve">
+    <value>Переглядайте історію звернень і досліджуйте параметри адреси.</value>
+  </data>
+  <data name="Text026" xml:space="preserve">
+    <value>Файлова бібліотека</value>
+  </data>
+  <data name="Text027" xml:space="preserve">
+    <value>Зберігайте матеріали, знаходьте їх у списку та відкривайте для перегляду.</value>
+  </data>
+  <data name="Text028" xml:space="preserve">
+    <value>ЗАЛИШАЙТЕСЯ НА ЗВ’ЯЗКУ</value>
+  </data>
+  <data name="Text029" xml:space="preserve">
+    <value>Кілька слів. Більше зв’язку.</value>
+  </data>
+  <data name="Text030" xml:space="preserve">
+    <value>Напишіть важливе — і надішліть тому, хто чекає.</value>
+  </data>
+  <data name="Text031" xml:space="preserve">
+    <value>↗ Вихідна пошта</value>
+  </data>
+  <data name="Text032" xml:space="preserve">
+    <value>Нове повідомлення</value>
+  </data>
+  <data name="Text033" xml:space="preserve">
+    <value>01 / Лист</value>
+  </data>
+  <data name="Text034" xml:space="preserve">
+    <value>Кому</value>
+  </data>
+  <data name="Text035" xml:space="preserve">
+    <value>Тема</value>
+  </data>
+  <data name="Text036" xml:space="preserve">
+    <value>Про що ваш лист?</value>
+  </data>
+  <data name="Text037" xml:space="preserve">
+    <value>Привіт! Хочу поділитися...</value>
+  </data>
+  <data name="Text038" xml:space="preserve">
+    <value>Простір для ваших думок</value>
+  </data>
+  <data name="Text039" xml:space="preserve">
+    <value>Перед надсиланням перевірте адресу.</value>
+  </data>
+  <data name="Text040" xml:space="preserve">
+    <value>Надіслати лист ↗</value>
+  </data>
+  <data name="Text041" xml:space="preserve">
+    <value>Нехай вас зрозуміють</value>
+  </data>
+  <data name="Text042" xml:space="preserve">
+    <value>Коротка тема допоможе швидко знайти лист. А кілька конкретних речень — передати головне.</value>
+  </data>
+  <data name="Text043" xml:space="preserve">
+    <value>Перед відправленням</value>
+  </data>
+  <data name="Text044" xml:space="preserve">
+    <value>Перевірте адресу одержувача.</value>
+  </data>
+  <data name="Text045" xml:space="preserve">
+    <value>Додайте зрозумілу тему.</value>
+  </data>
+  <data name="Text046" xml:space="preserve">
+    <value>Перечитайте повідомлення.</value>
+  </data>
+  <data name="Text047" xml:space="preserve">
+    <value>ДОСЛІДЖУЙТЕ СЕРВІСИ</value>
+  </data>
+  <data name="Text048" xml:space="preserve">
+    <value>Один сервіс. Різний час життя.</value>
+  </data>
+  <data name="Text049" xml:space="preserve">
+    <value>Порівняйте два отримання сервісу, а потім оновіть сторінку.</value>
+  </data>
+  <data name="Text050" xml:space="preserve">
+    <value>Новий запит ↻</value>
+  </data>
+  <data name="Text051" xml:space="preserve">
+    <value>ПЕРШЕ ОТРИМАННЯ</value>
+  </data>
+  <data name="Text052" xml:space="preserve">
+    <value>ДРУГЕ ОТРИМАННЯ</value>
+  </data>
+  <data name="Text053" xml:space="preserve">
+    <value>Однакові екземпляри</value>
+  </data>
+  <data name="Text054" xml:space="preserve">
+    <value>Різні екземпляри</value>
+  </data>
+  <data name="Text055" xml:space="preserve">
+    <value>Новий екземпляр при кожному отриманні сервісу.</value>
+  </data>
+  <data name="Text056" xml:space="preserve">
+    <value>Один екземпляр у межах поточного HTTP-запиту.</value>
+  </data>
+  <data name="Text057" xml:space="preserve">
+    <value>Один екземпляр на весь час роботи застосунку.</value>
+  </data>
+  <data name="Text058" xml:space="preserve">
+    <value>ЗБЕРІГАЙТЕ ВАЖЛИВЕ</value>
+  </data>
+  <data name="Text059" xml:space="preserve">
+    <value>Ваші матеріали. На своєму місці.</value>
+  </data>
+  <data name="Text060" xml:space="preserve">
+    <value>Додавайте файли до бібліотеки й повертайтеся до них у потрібний момент.</value>
+  </data>
+  <data name="Text061" xml:space="preserve">
+    <value>Додати файл</value>
+  </data>
+  <data name="Text062" xml:space="preserve">
+    <value>↑ Завантаження</value>
+  </data>
+  <data name="Text063" xml:space="preserve">
+    <value>Оберіть матеріал для бібліотеки</value>
+  </data>
+  <data name="Text064" xml:space="preserve">
+    <value>Зображення, документи, таблиці та архіви до 20 МБ</value>
+  </data>
+  <data name="Text065" xml:space="preserve">
+    <value>Файл ще не обрано</value>
+  </data>
+  <data name="Text066" xml:space="preserve">
+    <value>Однакові назви не перезаписують файли.</value>
+  </data>
+  <data name="Text067" xml:space="preserve">
+    <value>Завантажити файл ↑</value>
+  </data>
+  <data name="Text068" xml:space="preserve">
+    <value>Маленька бібліотека ідей</value>
+  </data>
+  <data name="Text069" xml:space="preserve">
+    <value>Зберігайте конспекти, ілюстрації та матеріали для роботи.</value>
+  </data>
+  <data name="Text070" xml:space="preserve">
+    <value>Швидкий перегляд</value>
+  </data>
+  <data name="Text071" xml:space="preserve">
+    <value>Натисніть на назву файлу. Зображення, PDF і текст відкриються на окремій сторінці. Інші формати можна завантажити.</value>
+  </data>
+  <data name="Text072" xml:space="preserve">
+    <value>Бібліотека</value>
+  </data>
+  <data name="Text073" xml:space="preserve">
+    <value>Спочатку найновіші</value>
+  </data>
+  <data name="Text074" xml:space="preserve">
+    <value>Тут починається ваша бібліотека</value>
+  </data>
+  <data name="Text075" xml:space="preserve">
+    <value>Додайте перший файл — він з’явиться в цьому списку.</value>
+  </data>
+  <data name="Text076" xml:space="preserve">
+    <value>Назва файлу</value>
+  </data>
+  <data name="Text077" xml:space="preserve">
+    <value>Розмір</value>
+  </data>
+  <data name="Text078" xml:space="preserve">
+    <value>Додано (UTC)</value>
+  </data>
+  <data name="Text079" xml:space="preserve">
+    <value>Дія</value>
+  </data>
+  <data name="Text080" xml:space="preserve">
+    <value>Завантажити</value>
+  </data>
+  <data name="Text081" xml:space="preserve">
+    <value>← До бібліотеки</value>
+  </data>
+  <data name="Text082" xml:space="preserve">
+    <value>ПЕРЕГЛЯД МАТЕРІАЛУ</value>
+  </data>
+  <data name="Text083" xml:space="preserve">
+    <value>Завантажити ↓</value>
+  </data>
+  <data name="Text084" xml:space="preserve">
+    <value>Перегляд файлу</value>
+  </data>
+  <data name="Text085" xml:space="preserve">
+    <value>Файл готовий до завантаження</value>
+  </data>
+  <data name="Text086" xml:space="preserve">
+    <value>Для цього формату попередній перегляд недоступний. Відкрийте його у відповідній програмі.</value>
+  </data>
+  <data name="Text087" xml:space="preserve">
+    <value>Помилка</value>
+  </data>
+  <data name="Text088" xml:space="preserve">
+    <value>ЩОСЬ ПІШЛО НЕ ТАК</value>
+  </data>
+  <data name="Text089" xml:space="preserve">
+    <value>Не вдалося виконати дію.</value>
+  </data>
+  <data name="Text090" xml:space="preserve">
+    <value>Спробуйте ще раз. Код звернення:</value>
+  </data>
+  <data name="Text091" xml:space="preserve">
+    <value>На головну</value>
+  </data>
+  <data name="Text092" xml:space="preserve">
+    <value>Вкажіть одержувача.</value>
+  </data>
+  <data name="Text093" xml:space="preserve">
+    <value>Введіть коректну email-адресу.</value>
+  </data>
+  <data name="Text094" xml:space="preserve">
+    <value>Додайте тему листа.</value>
+  </data>
+  <data name="Text095" xml:space="preserve">
+    <value>Тема має містити до 150 символів.</value>
+  </data>
+  <data name="Text096" xml:space="preserve">
+    <value>Напишіть повідомлення.</value>
+  </data>
+  <data name="Text097" xml:space="preserve">
+    <value>Максимум 5000 символів.</value>
+  </data>
+  <data name="Text098" xml:space="preserve">
+    <value>Лист передано поштовому серверу. Перевірте скриньку одержувача.</value>
+  </data>
+  <data name="Text099" xml:space="preserve">
+    <value>Лист не надіслано. Перевірте SMTP-налаштування та з’єднання із сервером.</value>
+  </data>
+  <data name="Text100" xml:space="preserve">
+    <value>Оберіть непорожній файл.</value>
+  </data>
+  <data name="Text101" xml:space="preserve">
+    <value>Розмір файлу має бути до 20 МБ.</value>
+  </data>
+  <data name="Text102" xml:space="preserve">
+    <value>Недопустиме ім’я або формат файлу. Оберіть зображення, PDF, TXT, CSV, ZIP або документ Office. Ім’я — до 120 символів.</value>
+  </data>
+  <data name="Text103" xml:space="preserve">
+    <value>ПРОЗОРІСТЬ У ДЕТАЛЯХ</value>
+  </data>
+  <data name="Text104" xml:space="preserve">
+    <value>Кожне звернення має історію.</value>
+  </data>
+  <data name="Text105" xml:space="preserve">
+    <value>Адреса, час і джерело запиту — в одному журналі.</value>
+  </data>
+  <data name="Text106" xml:space="preserve">
+    <value>Останні 20 запитів</value>
+  </data>
+  <data name="Text107" xml:space="preserve">
+    <value>Дослідіть query-параметр</value>
+  </data>
+  <data name="Text108" xml:space="preserve">
+    <value>Значення параметра q</value>
+  </data>
+  <data name="Text109" xml:space="preserve">
+    <value>Наприклад: привіт &amp; світ</value>
+  </data>
+  <data name="Text110" xml:space="preserve">
+    <value>Виконати запит ↗</value>
+  </data>
+  <data name="Text111" xml:space="preserve">
+    <value>Отримане значення:</value>
+  </data>
+  <data name="Text112" xml:space="preserve">
+    <value>не задано</value>
+  </data>
+  <data name="Text113" xml:space="preserve">
+    <value>Останні звернення</value>
+  </data>
+  <data name="Text114" xml:space="preserve">
+    <value>URL · Час · IP</value>
+  </data>
+  <data name="Text115" xml:space="preserve">
+    <value>Журнал поки порожній</value>
+  </data>
+  <data name="Text116" xml:space="preserve">
+    <value>Відкрийте іншу сторінку й поверніться сюди.</value>
+  </data>
+  <data name="Text117" xml:space="preserve">
+    <value>Кількість файлів: {0}</value>
+  </data>
+  <data name="Text118" xml:space="preserve">
+    <value>Файл «{0}» додано до бібліотеки.</value>
+  </data>
+  <data name="Text119" xml:space="preserve">
+    <value>Перегляд {0}</value>
+  </data>
+  <data name="Text120" xml:space="preserve">
+    <value>Попередній перегляд скорочено. Завантажте повний файл.</value>
+  </data>
+  <data name="Text121" xml:space="preserve">
+    <value>Параметри починаються з ?, пари розділяються &amp;. Пробіли й спеціальні символи в значеннях кодуються: пробіл → %20 (у формі також +), &amp; → %26, # → %23. Частина після # не передається серверу.</value>
+  </data>
+  <data name="Text122" xml:space="preserve">
+    <value>КБ</value>
+  </data>
+  <data name="Text123" xml:space="preserve">
+    <value>МБ</value>
+  </data>
+  <data name="Text124" xml:space="preserve">
+    <value>Мова</value>
+  </data>
+  <data name="Text125" xml:space="preserve">
+    <value>Застосувати</value>
+  </data>
+  <data name="RecipientTooLong" xml:space="preserve">
+    <value>Адреса має містити до 254 символів.</value>
+  </data>
+  <data name="QuickNavigation">
+    <value>Швидка навігація</value>
+  </data>
+  <data name="RequestNav" xml:space="preserve">
+    <value>Заявка</value>
+  </data>
+  <data name="RequestEyebrow" xml:space="preserve">
+    <value>НОВА СПІВПРАЦЯ</value>
+  </data>
+  <data name="RequestTitle" xml:space="preserve">
+    <value>Розкажіть про свою ідею.</value>
+  </data>
+  <data name="RequestIntro" xml:space="preserve">
+    <value>Залиште контактні дані та коротко опишіть запит. Ми перевіримо дані перед підтвердженням.</value>
+  </data>
+  <data name="RequestFormTitle" xml:space="preserve">
+    <value>Нова заявка</value>
+  </data>
+  <data name="RequestRequiredHint" xml:space="preserve">
+    <value>* Обов’язкові поля</value>
+  </data>
+  <data name="RequestFirstName" xml:space="preserve">
+    <value>Ім’я</value>
+  </data>
+  <data name="RequestLastName" xml:space="preserve">
+    <value>Прізвище</value>
+  </data>
+  <data name="RequestEmail" xml:space="preserve">
+    <value>Електронна пошта</value>
+  </data>
+  <data name="RequestPhone" xml:space="preserve">
+    <value>Телефон</value>
+  </data>
+  <data name="RequestAge" xml:space="preserve">
+    <value>Вік</value>
+  </data>
+  <data name="RequestSubject" xml:space="preserve">
+    <value>Тема заявки</value>
+  </data>
+  <data name="RequestCategory" xml:space="preserve">
+    <value>Напрям</value>
+  </data>
+  <data name="RequestMessage" xml:space="preserve">
+    <value>Опис ідеї</value>
+  </data>
+  <data name="RequestWebsite" xml:space="preserve">
+    <value>Ваш сайт</value>
+  </data>
+  <data name="RequestPreferredDate" xml:space="preserve">
+    <value>Бажана дата контакту</value>
+  </data>
+  <data name="RequestOptional" xml:space="preserve">
+    <value>Необов’язково</value>
+  </data>
+  <data name="RequestChoose" xml:space="preserve">
+    <value>Оберіть напрям</value>
+  </data>
+  <data name="RequestDesign" xml:space="preserve">
+    <value>Дизайн</value>
+  </data>
+  <data name="RequestDevelopment" xml:space="preserve">
+    <value>Розробка</value>
+  </data>
+  <data name="RequestSupport" xml:space="preserve">
+    <value>Підтримка</value>
+  </data>
+  <data name="RequestMessageHint" xml:space="preserve">
+    <value>Від 20 до 2000 символів</value>
+  </data>
+  <data name="RequestDateHint" xml:space="preserve">
+    <value>Сьогодні або протягом наступних 90 днів</value>
+  </data>
+  <data name="RequestSubmit" xml:space="preserve">
+    <value>Перевірити та надіслати</value>
+  </data>
+  <data name="RequestReset" xml:space="preserve">
+    <value>Очистити форму</value>
+  </data>
+  <data name="RequestErrors" xml:space="preserve">
+    <value>Виправте помилки у формі</value>
+  </data>
+  <data name="RequestAsideTitle" xml:space="preserve">
+    <value>Трохи деталей — кращий початок</value>
+  </data>
+  <data name="RequestAsideText" xml:space="preserve">
+    <value>Оберіть напрям, додайте тему й опишіть очікуваний результат. Телефон, сайт і дата контакту необов’язкові.</value>
+  </data>
+  <data name="RequestAsideSecond" xml:space="preserve">
+    <value>Що відбувається після перевірки</value>
+  </data>
+  <data name="RequestAsideSecondText" xml:space="preserve">
+    <value>Сторінка підтвердить коректність заявки. Дані цієї форми не зберігаються та не надсилаються поштою.</value>
+  </data>
+  <data name="RequestSuccess" xml:space="preserve">
+    <value>Заявку перевірено: усі дані коректні. Форму можна заповнити знову.</value>
+  </data>
+  <data name="RequestFirstNameRequired" xml:space="preserve">
+    <value>Вкажіть ім’я.</value>
+  </data>
+  <data name="RequestLastNameRequired" xml:space="preserve">
+    <value>Вкажіть прізвище.</value>
+  </data>
+  <data name="RequestNameLength" xml:space="preserve">
+    <value>Ім’я та прізвище мають містити від 2 до 40 символів.</value>
+  </data>
+  <data name="RequestNameFormat" xml:space="preserve">
+    <value>Використовуйте літери, пробіл, дефіс або апостроф.</value>
+  </data>
+  <data name="RequestEmailRequired" xml:space="preserve">
+    <value>Вкажіть електронну пошту.</value>
+  </data>
+  <data name="RequestEmailLength" xml:space="preserve">
+    <value>Адреса має містити не більше 254 символів.</value>
+  </data>
+  <data name="RequestEmailFormat" xml:space="preserve">
+    <value>Вкажіть коректну адресу електронної пошти.</value>
+  </data>
+  <data name="RequestPhoneFormat" xml:space="preserve">
+    <value>Телефон має бути у форматі +380XXXXXXXXX.</value>
+  </data>
+  <data name="RequestAgeRequired" xml:space="preserve">
+    <value>Вкажіть вік.</value>
+  </data>
+  <data name="RequestAgeRange" xml:space="preserve">
+    <value>Вік має бути від 16 до 100 років.</value>
+  </data>
+  <data name="RequestSubjectRequired" xml:space="preserve">
+    <value>Вкажіть тему заявки.</value>
+  </data>
+  <data name="RequestSubjectLength" xml:space="preserve">
+    <value>Тема має містити від 5 до 100 символів.</value>
+  </data>
+  <data name="RequestCategoryRequired" xml:space="preserve">
+    <value>Оберіть напрям заявки.</value>
+  </data>
+  <data name="RequestCategoryInvalid" xml:space="preserve">
+    <value>Оберіть дизайн, розробку або підтримку.</value>
+  </data>
+  <data name="RequestMessageRequired" xml:space="preserve">
+    <value>Опишіть свою ідею.</value>
+  </data>
+  <data name="RequestMessageLength" xml:space="preserve">
+    <value>Опис має містити від 20 до 2000 символів.</value>
+  </data>
+  <data name="RequestWebsiteLength" xml:space="preserve">
+    <value>Адреса сайту має містити не більше 200 символів.</value>
+  </data>
+  <data name="RequestWebsiteFormat" xml:space="preserve">
+    <value>Вкажіть повну адресу сайту з http:// або https://.</value>
+  </data>
+  <data name="RequestDateRange" xml:space="preserve">
+    <value>Дата має бути від сьогодні до наступних 90 днів.</value>
+  </data>
+  <data name="RequestHomeText" xml:space="preserve">
+    <value>Запропонуйте ідею та залиште дані для зв’язку.</value>
+  </data>
+</root>

@@ -1,0 +1,8 @@
+@model JournalPage
+@{ ViewData["Title"] = L["Text004"].Value; }
+<div class="page-heading"><div><p class="eyebrow">@L["Text103"]</p><h1>@L["Text104"]</h1><p class="subtext">@L["Text105"]</p></div><span class="pill">@L["Text106"]</span></div>
+<section class="panel"><h2>@L["Text107"]</h2><form method="get" asp-action="Index" class="query-form"><label class="visually-hidden" for="q">@L["Text108"]</label><input class="form-control" id="q" name="q" value="@Model.Query" maxlength="200" placeholder="@L["Text109"]" /><button class="btn btn-primary" type="submit">@L["Text110"]</button></form>
+<p>@L["Text111"] <strong id="query-value">@(string.IsNullOrEmpty(Model.Query) ? L["Text112"].Value : Model.Query)</strong></p><p class="request-url"><code>@Model.FullUrl</code></p><p class="subtext">@L["Text121"]</p></section>
+<div class="section-row"><h2>@L["Text113"]</h2><span>@L["Text114"]</span></div>
+@if (Model.Entries.Length == 0) { <div class="panel empty"><h3>@L["Text115"]</h3><p>@L["Text116"]</p></div> }
+else { <div class="panel">@foreach (var entry in Model.Entries) { <pre class="code-block">@entry</pre> }</div> }

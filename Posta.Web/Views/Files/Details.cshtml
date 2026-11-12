@@ -1,0 +1,7 @@
+@model FileDetails
+@{ ViewData["Title"] = L["Text084"].Value; }
+<a class="back-link" asp-action="Index">@L["Text081"]</a><div class="page-heading"><div><p class="eyebrow">@L["Text082"]</p><h1 class="filename">@Model.File.DisplayName</h1><div class="preview-meta"><span>@Model.File.Size</span><span>@Model.File.Extension.ToUpperInvariant()</span><span>@Model.File.Uploaded.ToString("dd.MM.yyyy HH:mm") UTC</span></div></div><a class="btn btn-primary" asp-action="Download" asp-route-name="@Model.File.Name">@L["Text083"]</a></div>
+<section class="panel">@if (Model.File.IsImage) { <img class="image-preview" src="@Url.Action("Preview", new { name = Model.File.Name })" alt="@Model.File.DisplayName" /> }
+else if (Model.File.Extension == ".pdf") { <iframe class="file-preview" title="@L["Text119", Model.File.DisplayName]" src="@Url.Action("Preview", new { name = Model.File.Name })"></iframe> }
+else if (Model.Text is not null) { <pre class="text-preview">@Model.Text</pre> }
+else { <div class="empty"><span class="feature-icon mx-auto" aria-hidden="true">▤</span><h2>@L["Text085"]</h2><p>@L["Text086"]</p></div> }</section>

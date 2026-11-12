@@ -1,0 +1,11 @@
+@using System.Globalization
+@{ var culture = CultureInfo.CurrentUICulture.Name; var returnUrl = Context.Request.PathBase + Context.Request.Path + Context.Request.QueryString; }
+<form asp-controller="Home" asp-action="SetLanguage" method="post" class="language-selector">
+    <input type="hidden" name="returnUrl" value="@returnUrl" />
+    <label class="visually-hidden" for="culture">@L["Text124"]</label>
+    <select id="culture" name="culture" class="form-select form-select-sm">
+        <option value="uk-UA" selected="@(culture == "uk-UA")">Українська</option>
+        <option value="en-US" selected="@(culture == "en-US")">English</option>
+    </select>
+    <button class="btn btn-outline-secondary btn-sm" type="submit">@L["Text125"]</button>
+</form>

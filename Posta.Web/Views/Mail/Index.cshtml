@@ -1,0 +1,11 @@
+@model MailForm
+@{ ViewData["Title"] = L["Text002"].Value; }
+<div class="page-heading"><div><p class="eyebrow">@L["Text028"]</p><h1>@L["Text029"]</h1><p class="subtext">@L["Text030"]</p></div><span class="pill">@L["Text031"]</span></div>
+@if (TempData["Success"] is string success) { <div class="alert alert-success" role="status">@success</div> }
+<div class="split"><section class="panel"><div class="panel-title"><h2>@L["Text032"]</h2><span class="number">@L["Text033"]</span></div>
+<form asp-action="Index" method="post"><div asp-validation-summary="ModelOnly" class="alert alert-danger" role="alert"></div>
+<div class="field"><label class="form-label" asp-for="Recipient"></label><input class="form-control" asp-for="Recipient" type="email" maxlength="254" required autocomplete="email" placeholder="name@example.com" /><span asp-validation-for="Recipient"></span></div>
+<div class="field"><label class="form-label" asp-for="Subject"></label><input class="form-control" asp-for="Subject" maxlength="150" required placeholder="@L["Text036"]" /><span asp-validation-for="Subject"></span></div>
+<div class="field"><label class="form-label" asp-for="Message"></label><textarea class="form-control" asp-for="Message" rows="7" maxlength="5000" required data-counter="message-count" placeholder="@L["Text037"]"></textarea><div class="field-hint"><span>@L["Text038"]</span><span id="message-count">0 / 5000</span></div><span asp-validation-for="Message"></span></div>
+<div class="form-footer"><small>@L["Text039"]</small><button class="btn btn-primary" type="submit">@L["Text040"]</button></div></form></section>
+<aside class="panel note-panel"><span class="feature-icon" aria-hidden="true">✳</span><h3>@L["Text041"]</h3><p>@L["Text042"]</p><hr /><h3>@L["Text043"]</h3><ul><li>@L["Text044"]</li><li>@L["Text045"]</li><li>@L["Text046"]</li></ul></aside></div>

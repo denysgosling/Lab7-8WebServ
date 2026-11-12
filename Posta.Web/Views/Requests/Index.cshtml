@@ -1,0 +1,74 @@
+@model RequestForm
+@{ ViewData["Title"] = L["RequestNav"].Value; }
+<div class="page-heading"><div><p class="eyebrow">@L["RequestEyebrow"]</p><h1>@L["RequestTitle"]</h1><p class="subtext">@L["RequestIntro"]</p></div><span class="pill">Posta</span></div>
+@if (TempData["RequestSuccess"] is string success)
+{
+    <div class="alert alert-success" role="status">@success</div>
+}
+<div class="request-layout">
+<section class="panel">
+    <div class="panel-title"><h2>@L["RequestFormTitle"]</h2><span class="number">@L["RequestRequiredHint"]</span></div>
+    <form asp-controller="Requests" asp-action="Index" method="post" novalidate>
+        @if (!ViewData.ModelState.IsValid)
+        {
+            <div class="alert alert-danger" role="alert"><strong>@L["RequestErrors"]</strong><div asp-validation-summary="All"></div></div>
+        }
+        <div class="request-fields">
+            <div class="field">
+                <label class="form-label" asp-for="FirstName">@L["RequestFirstName"] *</label>
+                <input class="form-control" asp-for="FirstName" type="text" autocomplete="given-name" aria-describedby="FirstName-error" aria-required="true" />
+                <span asp-validation-for="FirstName" id="FirstName-error"></span>
+            </div>
+            <div class="field">
+                <label class="form-label" asp-for="LastName">@L["RequestLastName"] *</label>
+                <input class="form-control" asp-for="LastName" type="text" autocomplete="family-name" aria-describedby="LastName-error" aria-required="true" />
+                <span asp-validation-for="LastName" id="LastName-error"></span>
+            </div>
+            <div class="field">
+                <label class="form-label" asp-for="Email">@L["RequestEmail"] *</label>
+                <input class="form-control" asp-for="Email" type="email" autocomplete="email" aria-describedby="Email-error" aria-required="true" />
+                <span asp-validation-for="Email" id="Email-error"></span>
+            </div>
+            <div class="field">
+                <label class="form-label" asp-for="Phone">@L["RequestPhone"] <span class="optional">(@L["RequestOptional"])</span></label>
+                <input class="form-control" asp-for="Phone" type="tel" autocomplete="tel" aria-describedby="Phone-error" placeholder="+380XXXXXXXXX" />
+                <span asp-validation-for="Phone" id="Phone-error"></span>
+            </div>
+            <div class="field">
+                <label class="form-label" asp-for="Age">@L["RequestAge"] *</label>
+                <input class="form-control" asp-for="Age" type="number" autocomplete="off" aria-describedby="Age-error" aria-required="true" />
+                <span asp-validation-for="Age" id="Age-error"></span>
+            </div>
+            <div class="field">
+                <label class="form-label" asp-for="Subject">@L["RequestSubject"] *</label>
+                <input class="form-control" asp-for="Subject" type="text" autocomplete="off" aria-describedby="Subject-error" aria-required="true" />
+                <span asp-validation-for="Subject" id="Subject-error"></span>
+            </div>
+            <div class="field">
+                <label class="form-label" asp-for="Category">@L["RequestCategory"] *</label>
+                <select class="form-control form-select" asp-for="Category" aria-required="true" aria-describedby="Category-error"><option value="">@L["RequestChoose"]</option><option value="Design">@L["RequestDesign"]</option><option value="Development">@L["RequestDevelopment"]</option><option value="Support">@L["RequestSupport"]</option></select>
+                <span asp-validation-for="Category" id="Category-error"></span>
+            </div>
+            <div class="field">
+                <label class="form-label" asp-for="Website">@L["RequestWebsite"] <span class="optional">(@L["RequestOptional"])</span></label>
+                <input class="form-control" asp-for="Website" type="url" autocomplete="url" aria-describedby="Website-error" placeholder="https://example.com" />
+                <span asp-validation-for="Website" id="Website-error"></span>
+            </div>
+            <div class="field">
+                <label class="form-label" asp-for="PreferredDate">@L["RequestPreferredDate"] <span class="optional">(@L["RequestOptional"])</span></label>
+                <input class="form-control" asp-for="PreferredDate" type="date" autocomplete="off" aria-describedby="PreferredDate-error PreferredDate-hint" />
+                <div class="field-hint" id="PreferredDate-hint">@L["RequestDateHint"]</div>
+                <span asp-validation-for="PreferredDate" id="PreferredDate-error"></span>
+            </div>
+            <div class="field request-wide">
+                <label class="form-label" asp-for="Message">@L["RequestMessage"] *</label>
+                <textarea class="form-control" asp-for="Message" rows="4" aria-required="true" aria-describedby="Message-hint Message-error"></textarea>
+                <div class="field-hint" id="Message-hint">@L["RequestMessageHint"]</div>
+                <span asp-validation-for="Message" id="Message-error"></span>
+            </div>
+        </div>
+        <div class="form-footer"><a class="btn btn-outline-secondary" asp-action="Index">@L["RequestReset"]</a><button class="btn btn-primary" type="submit">@L["RequestSubmit"] ↗</button></div>
+    </form>
+</section>
+<aside class="panel note-panel"><span class="feature-icon" aria-hidden="true">✓</span><h3>@L["RequestAsideTitle"]</h3><p>@L["RequestAsideText"]</p><hr /><h3>@L["RequestAsideSecond"]</h3><p>@L["RequestAsideSecondText"]</p></aside>
+</div>

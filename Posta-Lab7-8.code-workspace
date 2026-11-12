@@ -1,0 +1,33 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "presentation": {
+          "reveal": "always",
+          "panel": "dedicated"
+        },
+        "args": [
+          "run",
+          "--project",
+          "${workspaceFolder}/Posta.Web"
+        ],
+        "command": "dotnet",
+        "label": "Posta: Запустити лабораторну 6",
+        "problemMatcher": [],
+        "type": "process"
+      }
+    ]
+  },
+  "settings": {
+    "files.exclude": {
+      "**/bin": true,
+      "**/obj": true
+    }
+  }
+}
