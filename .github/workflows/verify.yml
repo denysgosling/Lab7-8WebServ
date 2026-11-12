@@ -1,0 +1,46 @@
+name: Verify laboratory 7-8
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build solution
+        run: dotnet build Posta.slnx --configuration Release --nologo
+      - name: Start website
+        run: |
+          mkdir -p evidence
+          cd Posta.Web
+          ASPNETCORE_URLS=http://127.0.0.1:5107 ASPNETCORE_ENVIRONMENT=Development dotnet bin/Release/net10.0/Posta.Web.dll > ../evidence/server.log 2>&1 &
+          for attempt in {1..60}; do
+            if curl --silent --fail http://127.0.0.1:5107/Requests > /dev/null; then exit 0; fi
+            sleep 1
+          done
+          cat ../evidence/server.log
+          exit 1
+      - name: Test validation and HTTP behavior
+        run: python3 tests/verify_requests.py
+      - name: Capture browser evidence
+        run: |
+          npm install --prefix tests --ignore-scripts --no-package-lock --no-audit --no-fund
+          cd tests
+          npx playwright install --with-deps chromium
+          node capture-evidence.mjs
+      - name: Upload test results and screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: laboratory-evidence
+          path: evidence/
+          retention-days: 14
